@@ -1,0 +1,6 @@
+export MEMORY_URL="http://localhost:8003/v1"
+export PLAN_URL="http://localhost:8003/v1"
+python memory_serve.py \
+  --model_name qwen \
+  --port 5000 \
+  --host 0.0.0.0

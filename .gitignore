@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+nohup.out
+
+# Results / Checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.pkl
+*.npy
+*.npz
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environments
+.env
+TTRL-streaming/
